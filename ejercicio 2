@@ -1,0 +1,12 @@
+palabra = str(input("Introduce una palabra"))
+
+class verification
+  def _init_(self,palabra):
+    self.palabra = palabra
+  def palabra_palindroma(self):
+    if str(self.palabra) == str(self.palabra)[::-1]:
+      print("Correcto, la palabra es palindroma")
+    else:
+      print("Falso, la palabra no es palindroma")
+resultado = verification(palabra)
+print(resultado.palabra_palindroma)
