@@ -1,6 +1,6 @@
 palabra = str(input("Introduce una palabra"))
 
-class verification
+class verification:
   def _init_(self,palabra):
     self.palabra = palabra
   def palabra_palindroma(self):
@@ -10,3 +10,14 @@ class verification
       print("Falso, la palabra no es palindroma")
 resultado = verification(palabra)
 print(resultado.palabra_palindroma)
+
+pal = palabra
+class convertidor:
+  def _init_(self,pal):
+    self.pal=pal
+  def convertit_mayuscula(self):
+    if pal.islower():
+      return pal.upper()
+    else:
+      print (pal)
+    
